@@ -1,0 +1,108 @@
+
+#app[data-v-535e323d] {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html[data-v-535e323d] {
+    min-height: 100%;
+}
+.styleEditor[data-v-535e323d] {
+    -webkit-backface-visibility: hidden;
+}
+
+.code[data-v-5ee05b29] {
+  display: none;
+}
+
+.htmlMode[data-v-73eee618] {
+  -webkit-animation: flip-data-v-73eee618 2s;
+          animation: flip-data-v-73eee618 2s;
+}
+@-webkit-keyframes flip-data-v-73eee618 {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+@keyframes flip-data-v-73eee618 {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+*{margin: 0; padding: 0;font-family:microsoft yahei;}
+*{box-sizing: border-box;}
+*::before{box-sizing: border-box;}
+*::after{box-sizing: border-box;}
+html,body,#app{
+  display: block;
+  height:100%;
+}
+.resumeEditor {
+    background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") #fff no-repeat center bottom / auto auto;
+}
+/**
+ * webkit-scroll
+ * 2016-04-01 11:29:56
+ * by：nostar
+ */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-button:start:increment,
+::-webkit-scrollbar-button:end:decrement {
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  display: block;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-button:start {
+  width: 10px;
+  height: 10px;
+  background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") no-repeat 0 0;
+}
+::-webkit-scrollbar-button:start:hover {
+  background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") no-repeat -15px 0;
+}
+::-webkit-scrollbar-button:start:active {
+  background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") no-repeat -30px 0;
+}
+::-webkit-scrollbar-button:end {
+  width: 10px;
+  height: 10px;
+  background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") no-repeat 0 -18px;
+}
+::-webkit-scrollbar-button:end:hover {
+  background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") no-repeat -15px -18px;
+}
+::-webkit-scrollbar-button:end:active {
+  background: url("https://cdn.jsdelivr.net/gh/xgxdmx/blog_resource@latest/img/Valentine1.jpg") no-repeat -30px -18px;
+}

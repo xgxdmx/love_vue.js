@@ -1,24 +1,4 @@
-# love_vue
+# loving
+情人节玩玩吼。
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[在线预览：Demo](https://nostarsnow.github.io/loving/) 
